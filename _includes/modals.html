@@ -1,40 +1,202 @@
- <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-{% endfor %}
+ <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                         <h2>Rumble in the Jungle- Boxing Game</h2>
+                         <hr class="star-primary">
+                         <img src="img/portfolio/Boxing.png" class="img-responsive img-centered" alt="image-alt">
+                         <p>
+                             This was the first project I did at GA. It is an 8-Bit, turn-based boxing match game. There is a power bar which is constantly moving that dictates how powerful each punch is according to the timing of the user's strike.  The game was built with jQuery, animation sprites and CSS animations to create a retro, user friendly game. </p>
+                             <ul class="list-inline item-details">
+                                 <li>Link:
+                                     <strong>
+                                     <a href="https://sheltered-island-69639.herokuapp.com/
+                                         " target="_blank">Click here
+                                     </a>
+                                     </strong>
+                                 </li>
+                                 <li>Date:
+                                     <strong><a href="https://sheltered-island-69639.herokuapp.com/
+                                     " target="_blank">April 2016</a>
+                                     </strong>
+                                 </li>
+                               
+                             </ul>
+                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                         </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                         <h2>Babel</h2>
+                         <hr class="star-primary">
+                         <img src="img/portfolio/Babel.png" class="img-responsive img-centered" alt="image-alt">
+                         <p>Babel is a social network that connects users who are looking to learn or teach a language. The app uses the CRUD principles, and was my first project using Ruby on Rails. I learnt the potential and power of Rails, and how to use relational databases effectively, as well as how to create a responsive app that was also attractive to look at. 
+                         </p>
+                         <ul class="list-inline item-details">
+                             <li>Link:
+                                 <strong><a href="https://radiant-cove-96760.herokuapp.com/
+                                     " target="_blank">Click here</a>
+                                 </strong>
+                             </li>
+                             <li>Date:
+                                 <strong><a href="https://radiant-cove-96760.herokuapp.com/
+                                 " target="_blank">May 2016</a>
+                                 </strong>
+                             </li>
+
+                         </ul>
+                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                         <h2>Transcribe</h2>
+                         <hr class="star-primary">
+                         <img src="img/portfolio/Transcribe.png" class="img-responsive img-centered" alt="image-alt">
+                         <p>Transcribe was the final project I did at GA. It is an app that records speech, then turns it into text for the user to use as they wish. The initial idea was inspired by a friend who is about to start university, and was worried about making notes. Transcribe uses Angular, a powerful tool which I really enjoyed using. It also makes use of IBM’s Watson Developer Cloud, and passport to provide authentication. </p>
+                         <ul class="list-inline item-details">
+                             <li>Link:
+                                 <strong>
+                                 <a href="https://whispering-springs-83941.herokuapp.com/#/" target="_blank">
+                                 Click here
+                                 </a>
+                                 </strong>
+                             </li>
+                             <li>Date:
+                                 <strong>
+
+         <a href="https://whispering-springs-83941.herokuapp.com/#/" target="_blank">June 2016</a>
+                                 </strong>
+                             </li>
+                             
+                         </ul>
+                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+     <!-- l -->
+     </div>
+ </div>
+
+ <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                         <h2>LineUp</h2>
+                         <hr class="star-primary">
+                         <img src="img/portfolio/LineUp.png" class="img-responsive img-centered" alt="image-alt">
+                         <p>LineUp is a map for a user to find gigs local to their chosen area. The gigs are created by other users, and users can scan for other gigs using a map. LineUp also used the Google Maps API, as well as AJAX and Node.</p>
+                         <ul class="list-inline item-details">
+                             <li>Link:
+                                 <strong><a href="https://evening-spire-75101.herokuapp.com/">Click here</a>
+                                 </strong>
+                             </li>
+                             <li>Date:
+                                 <strong><a href="https://evening-spire-75101.herokuapp.com/">May 2014</a>
+                                 </strong>
+                             </li>
+                            
+                         </ul>
+                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-content">
+         <div class="close-modal" data-dismiss="modal">
+             <div class="lr">
+                 <div class="rl">
+                 </div>
+             </div>
+         </div>
+         <!-- <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                         <h2>Startup Framework</h2>
+                         <hr class="star-primary">
+                         <img src="img/portfolio/startup-framework.png" class="img-responsive img-centered" alt="image-alt">
+                         <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                         <ul class="list-inline item-details">
+                             <li>Client:
+                                 <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                 </strong>
+                             </li>
+                             <li>Date:
+                                 <strong><a href="http://startbootstrap.com">April 2014</a>
+                                 </strong>
+                             </li>
+                             <li>Service:
+                                 <strong><a href="http://startbootstrap.com">Web Development</a>
+                                 </strong>
+                             </li>
+                         </ul>
+                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div> -->
+ </div> 
